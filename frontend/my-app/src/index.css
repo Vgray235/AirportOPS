@@ -1,0 +1,278 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background: #f5f5f5;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.left {
+  flex: 1;
+  background: url("https://wallpaperaccess.com/full/850490.jpg")
+    no-repeat center center;
+  background-size: cover;
+}
+
+.right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #4c8688;
+}
+
+.auth-box {
+  width: 380px;
+  background: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.auth-box h2 {
+  margin-bottom: 20px;
+  font-weight: 500;
+  color: #333;
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  outline: none;
+  font-size: 14px;
+}
+
+.input-group input:focus {
+  border-bottom: 1px solid #e30613;
+}
+
+.actions {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.actions a {
+  font-size: 13px;
+  text-decoration: none;
+  color: #888;
+}
+
+.btn {
+  width: 100%;
+  background: #b89496;
+  border: none;
+  padding: 12px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 10px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background: #c5c76c;
+}
+
+.btn-outline {
+  width: 100%;
+  background: transparent;
+  border: 2px solid #e30613;
+  padding: 12px;
+  color: #e30613;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 15px;
+  transition: all 0.3s ease;
+}
+
+.btn-outline:hover {
+  background: #e30613;
+  color: #fff;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.logo-img {
+  width: 80px;   /* adjust size */
+  /* height: auto;
+  user-select: none;
+  pointer-events: none;
+} */ 
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background: #f5f5f5;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  position: relative;
+}
+
+.left {
+  flex: 1.5;
+  background: url("C:\Users\vineet.kumar\.vscode\finalProject\Airport\frontend\my-app\src\assets\logo.jpg")
+    no-repeat center center;
+  background-size: cover;
+  position: relative;
+}
+
+.right {
+  flex:1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #4872a3;
+  border-radius: 55 px;
+}
+
+/* Branding (top-left of background) */
+.branding {
+  position: absolute;
+  top: 20px;
+  left: 25px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.branding-logo {
+  width: 40px;
+  height: auto;
+}
+
+.branding-text {
+  letter-spacing: 1px;
+}
+
+/* Auth card */
+.auth-box {
+  width: 380px;
+  background: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  text-align: center;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+
+.logo-img {
+  width: 40px;
+  height: auto;
+  user-select: none;
+}
+
+.card-title {
+  margin-bottom: 20px;
+  font-weight: 600;
+  font-size: 18px;
+  text-align: center;
+  color: #333;
+  border-radius: 49px;
+}
+
+.input-group {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  outline: none;
+  font-size: 14px;
+}
+
+.input-group input:focus {
+  border-bottom: 1px solid #e30613;
+}
+
+.actions {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.actions a {
+  font-size: 13px;
+  text-decoration: none;
+  color: #888;
+}
+
+/* Buttons */
+.btn {
+  width: 100%;
+  background: #e30613;
+  border: none;
+  padding: 12px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 10px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background: #c30510;
+}
+
+.btn-outline {
+  width: 100%;
+  background: transparent;
+  border: 2px solid #e30613;
+  padding: 12px;
+  color: #e30613;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 15px;
+  transition: all 0.3s ease;
+}
+
+.btn-outline:hover {
+  background: #e30613;
+  color: #fff;
+}
+
